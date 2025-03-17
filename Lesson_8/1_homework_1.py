@@ -42,3 +42,4 @@ subject_field.send_keys("math")
 assert subject_field.get_attribute("value") == "math", "Неверный текст в поле Subject"
 
 time.sleep(3)
+
