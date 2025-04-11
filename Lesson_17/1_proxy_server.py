@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
 # Для теста использовался бесплатный прокси, в работе их лучше не использовать
-PROXY = "170.78.211.161:1080"
+PROXY = "178.236.247.252:3128"
 
 options = Options()
 options.add_argument(f"--proxy-server={PROXY}")
