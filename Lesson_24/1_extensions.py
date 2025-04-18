@@ -13,4 +13,4 @@ driver = webdriver.Chrome(service=service, options=options)
 
 driver.get("https://www.youtube.com/watch?v=DyKobGr1gpc")
 
-time.sleep(10)
+time.sleep(5)
